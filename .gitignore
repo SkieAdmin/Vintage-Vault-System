@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+
+# runtime data (SQLite database + uploaded photos)
+backend/data/
+backend/uploads/
+
+# expo
+.expo/
+dist/
+web-build/
+
+# logs
+*.log
+npm-debug.*
+
+# os
+.DS_Store
+Thumbs.db
